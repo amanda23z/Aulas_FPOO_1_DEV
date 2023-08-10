@@ -9,7 +9,6 @@ package fundamentos;
  * @author Aluno
  */
 public class Fundamentos {
-
     /**
      * @param args the command line arguments
      */
