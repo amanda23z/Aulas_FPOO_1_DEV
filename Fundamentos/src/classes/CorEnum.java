@@ -4,13 +4,12 @@
  */
 package classes;
 
+import javax.swing.plaf.basic.BasicScrollPaneUI;
+
 /**
  *
  * @author Aluno
  */
-public class Carro2 {
-    public static void main(String[] args) {
-        Carro carro = new Carro("Dodge Ram", "Ram", CorEnum.AZUL, 2022, 4);    
-        System.out.println(carro);
-    }
+public enum CorEnum {
+    CINZA, BRANCO, VERMELHO, AZUL, AMARELO, VERDE, PRATA, PRETO, BEGE, LARANJA, ROXO 
 }

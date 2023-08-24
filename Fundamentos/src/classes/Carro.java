@@ -12,13 +12,13 @@ public class Carro {
 
     private String modelo;
     private String marca;
-    private String cor;
+    private CorEnum cor;
     private int ano;
     private int rodas;
     private String situacao;
     private String velocidade;
 
-    public Carro(String modelo, String marca, String cor, int ano, int rodas) {
+    public Carro(String modelo, String marca, CorEnum cor, int ano, int rodas) {
         this.modelo = modelo;
         this.marca = marca;
         this.cor = cor;
